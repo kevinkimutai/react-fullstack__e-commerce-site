@@ -1,0 +1,66 @@
+.row {
+  margin-top: 4rem;
+  border: 0.2rem solid #999;
+}
+.row-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 1rem;
+  background: var(--blue-primary-dark);
+  color: var(--white-color);
+}
+.row-header h3,
+.row-header div {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.row-header div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.row-icon {
+  margin-left: 0.5rem;
+  font-size: 1.7rem;
+}
+.rows-container {
+  display: flex;
+  align-items: center;
+  overflow: scroll;
+  padding: 2rem;
+}
+.rows-container::-webkit-scrollbar {
+  display: none;
+}
+.rows-item {
+  min-width: 20rem;
+  padding: 2rem;
+  margin: 0.5rem;
+  box-shadow: 0.1rem 0.5rem 0.7rem rgb(228, 228, 228),
+    -0.1rem -0.5rem 0.7rem rgb(228, 228, 228);
+  cursor: pointer;
+}
+.rows-item img {
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+.row-item__name {
+  font-size: 1.2rem;
+  color: var(--black-color);
+  margin-bottom: 1rem;
+}
+.row-item__price span {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+.row-item__price {
+  color: var(--blue-primary-dark);
+  font-size: 1.3rem;
+  font-weight: 600;
+}

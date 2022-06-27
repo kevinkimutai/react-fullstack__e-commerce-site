@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 8rem;
+  font-size: 1.5rem;
+  color: var(--white-color);
+  background: var(--blue-primary-dark);
+}
+.header__promo {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.header__content {
+  display: flex;
+  font-size: 1.5rem;
+}
+.socials__icon {
+  margin-right: 1rem;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+.header__content__quick-links {
+  font-size: 1.5rem;
+}
+.header__content__quick-links a {
+  padding: 0 1rem;
+  border-right: 0.1rem solid var(--white-color);
+}

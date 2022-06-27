@@ -1,0 +1,33 @@
+.navmenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100rem;
+}
+.navmenu__title {
+  display: flex;
+  align-items: center;
+  background: var(--blue-primary-dark);
+  padding: 1rem 0.5rem;
+  color: var(--white-color);
+  font-size: 1.5rem;
+}
+.navmenu__title h3 {
+  font-size: 1.5rem;
+}
+.navmenu__icon {
+  font-size: 1.5rem;
+  margin-right: 0.5rem;
+}
+.navmenu__menu-links {
+  list-style: none;
+}
+.navmenu__menu-links li {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 1rem 0.5rem;
+  color: var(--black-color);
+  font-size: 1.3rem;
+  cursor: pointer;
+}
